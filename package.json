@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Truss.works application homework",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rswerve/twHomework.git"
+  },
   "scripts": {
     "test": "jest",
     "normalize": "node --no-warnings index.js",
