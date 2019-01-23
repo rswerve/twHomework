@@ -3,7 +3,7 @@
 This is a solution to the challenge described in "The problem"
 section below.
 
-## Setup
+## Requires Node and npm
 
 These instructions assume you're using Mac OS.
 You'll need Node and npm to run this tool.  If you 
@@ -20,15 +20,18 @@ node --version
 npm --version
 ```
 
-Once you have Node installed, clone this repo and, in the root of this
-project, run
+## Clone and install
+
+Once you have Node installed, clone this repo and open a terminal
+window in the _twHomework_ folder that was copied to your machine.
+Inside _twHomework_, run
 ```
 npm install
 ```
 
 ## Run
 
-After npm install, from the root of this project, run
+After npm install, inside the _twHomework_ folder, run
 ```
 npm run normalize
 ```
