@@ -1,33 +1,29 @@
-_This is one of the steps in the Truss interview process. If you've
-stumbled upon this repository and are interested in a career with
-Truss, [check out our jobs page](https://truss.works/jobs)._
+## Intro
 
-# Truss Software Engineering Interview
+This is a solution to the challenge described in "The problem"
+section below.
 
-## Introduction and expectations
+## Setup
 
-Hi there! Please complete the problem described below to the best of
-your ability, using the tools you're most comfortable with. Assume
-you're sending your submission in for code review from peers;
-we'll be talking about your submission in your interview in that
-context.
+These instructions assume you're using Mac OS.
+You'll need Node and npm to run this tool.  The following 
+instructions will install npm along with Node.
+You can install Node with [Homebrew](https://brew.sh/) or
+[directly](https://nodejs.org) from the Node.js site.
 
-We expect this to take less than 4 hours of actual coding time. Please
-submit a working but incomplete solution instead of spending more time
-on it. We're also aware that getting after-hours coding time can be
-challenging; we'd like a submission within a week and if you need more
-time please let us know.
+This was tested with Node 11.4.0 and npm 6.5.0.
+Earlier versions will probably work, but haven't been tested.
 
-If you have any questions, please contact hiring@truss.works; we're
-happy to help if you're not sure what we're asking for or if you have
-questions.
+Once you have Node installed, clone this repo and, in the root of this
+project, run
+_npm install_
 
-## How to submit your response
+## Run
 
-Please send hiring@truss.works a link to a public git repository
-(Github is fine) that contains your code and a README.md that tells us
-how to build and run it. Your code will be run on either macOS 10.13
-or Ubuntu 16.04 LTS, your choice.
+After npm install, from the root of this project, run
+_npm run normalize_
+
+From there, follow the command prompts.  Enjoy!
 
 ## The problem: CSV normalization
 
