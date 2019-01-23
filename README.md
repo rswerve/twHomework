@@ -6,22 +6,32 @@ section below.
 ## Setup
 
 These instructions assume you're using Mac OS.
-You'll need Node and npm to run this tool.  The following 
-instructions will install npm along with Node.
-You can install Node with [Homebrew](https://brew.sh/) or
-[directly](https://nodejs.org) from the Node.js site.
+You'll need Node and npm to run this tool.  If you 
+install Node with [Homebrew](https://brew.sh/) or
+[directly](https://nodejs.org) from the Node.js site,
+it will also install npm.
 
 This was tested with Node 11.4.0 and npm 6.5.0.
 Earlier versions will probably work, but haven't been tested.
 
+You can check your installed versions:
+```
+node --version
+npm --version
+```
+
 Once you have Node installed, clone this repo and, in the root of this
 project, run
-_npm install_
+```
+npm install
+```
 
 ## Run
 
 After npm install, from the root of this project, run
-_npm run normalize_
+```
+npm run normalize
+```
 
 From there, follow the command prompts.  Enjoy!
 
