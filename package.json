@@ -1,0 +1,24 @@
+{
+  "name": "truss",
+  "version": "1.0.0",
+  "description": "Truss.works application homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "normalize": "node --no-warnings index.js",
+    "debug": "node --nolazy --inspect-brk=9229 --no-warnings index.js"
+  },
+  "author": "Mazdak Atighi",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "moment": "^2.23.0",
+    "moment-timezone": "^0.5.23",
+    "papaparse": "^4.6.3"
+  }
+}
